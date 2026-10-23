@@ -1,8 +1,5 @@
 """
 Elisha Internet Cafe calculators.
-
-PyScript lets Python respond to events in the webpage. An event is something
-that happens, such as a visitor clicking a button or changing a selection.
 """
 
 from pyscript import document
