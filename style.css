@@ -236,8 +236,9 @@ button, input, select { font: inherit; }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
 
-/* Dark purple page background inspired by the provided reference image.
-   Cards, illustrations, layout, and business content remain unchanged. */
+
+
+
 :root { --paper: #10071e; }
 body { background: radial-gradient(ellipse at 50% 0%, #1b0e30 0%, #10071e 54%, #0c0617 100%); color: #eee8f7; }
 .site-header { border-bottom-color: #30203f; background: rgba(16, 7, 30, .94); }
@@ -262,7 +263,7 @@ body { background: radial-gradient(ellipse at 50% 0%, #1b0e30 0%, #10071e 54%, #
 .site-footer { border-top-color: #30203f; background: #130a22; }
 .footer-inner > p, .back-top, .footer-end { color: #b8acc8; }
 
-/* Show the supplied promo video in the hero artwork frame without cropping it. */
+
 .hero-art--ad {
   display: grid;
   place-items: center;
