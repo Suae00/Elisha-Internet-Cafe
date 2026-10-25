@@ -18,6 +18,7 @@
 
   <link rel="stylesheet" href="./style.css">
 
+  <!-- PyScript: Python functionality for the website -->
   <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css">
   <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
   <script type="py" src="./main.py"></script>
@@ -45,6 +46,7 @@
 
   <main id="main">
 
+    <!-- HOME -->
     <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
       <div class="hero-copy">
         <div class="eyebrow">
@@ -87,49 +89,21 @@
         </div>
       </div>
 
-      <div class="hero-art" role="img" aria-label="Illustration of a computer workstation">
-        <div class="art-orbit orbit-one"></div>
-        <div class="art-orbit orbit-two"></div>
-
-        <div class="art-label">
-          <span class="status-light"></span>
-          ELISHA INTERNET CAFE
-        </div>
-
-        <div class="art-window">
-          <div class="window-top">
-            <span></span><span></span><span></span>
-            <i>elisha / workstation 01</i>
-          </div>
-
-          <div class="screen">
-            <div class="screen-side"><b></b><b></b><b></b><b></b></div>
-            <div class="screen-main">
-              <div class="screen-kicker">WELCOME</div>
-              <div class="screen-heading">Log in.<br>Get started.</div>
-              <div class="screen-lines"><i></i><i></i><i></i></div>
-              <div class="screen-chip">WORK · PLAY · PRINT</div>
-            </div>
-          </div>
-
-          <div class="monitor-stand"></div>
-          <div class="monitor-base"></div>
-        </div>
-
-        <div class="desk"></div>
-        <div class="keyboard"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-        <div class="mouse"></div>
-        <div class="plant"><i></i><i></i><i></i><b></b></div>
-
-        <div class="art-note">
-          <span class="note-icon" aria-hidden="true">↗</span>
-          <span>
-            <b>Work, play, and print</b>
-            <small>Services in one location</small>
-          </span>
-        </div>
-
-        <div class="art-index">01 <span>/ 06</span></div>
+      <div class="hero-art hero-art--ad" aria-label="Elisha Internet Cafe advertisement">
+        <video
+          class="hero-ad-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          controls
+          preload="metadata"
+          poster="./elisha-ad-poster.jpg"
+          aria-label="Elisha Internet Cafe advertisement video"
+        >
+          <source src="./elisha-ad.mp4" type="video/mp4">
+          Your browser does not support embedded video.
+        </video>
       </div>
     </section>
 
@@ -143,6 +117,7 @@
       </div>
     </div>
 
+    <!-- SERVICES -->
     <section class="services section-wrap section-space" id="services" aria-labelledby="services-title">
       <div class="section-heading">
         <div>
@@ -219,6 +194,7 @@
       </div>
     </section>
 
+    <!-- INTERACTIVE CALCULATORS -->
     <section class="tools-section" aria-labelledby="tools-title">
       <div class="section-wrap tools-wrap">
         <div class="tools-intro">
@@ -236,7 +212,7 @@
         </div>
 
         <div class="calculator-stack">
-
+          <!-- PRINTING CALCULATOR -->
           <article class="calculator-card" id="printing-calculator" aria-labelledby="printing-title">
             <div class="calculator-head">
               <div class="calculator-icon">P</div>
@@ -284,7 +260,7 @@
             </p>
           </article>
 
-
+          <!-- COMPUTER RENTAL CALCULATOR -->
           <article class="calculator-card" id="rental-calculator" aria-labelledby="rental-title">
             <div class="calculator-head">
               <div class="calculator-icon calculator-icon-alt">⌁</div>
@@ -328,7 +304,7 @@
       </div>
     </section>
 
-
+    <!-- ABOUT THE BUSINESS -->
     <section class="about section-wrap section-space" id="about" aria-labelledby="about-title">
       <div class="about-visual">
         <div class="about-graphic" aria-hidden="true">
@@ -392,7 +368,7 @@
       </div>
     </section>
 
-
+    <!-- BUSINESS ANALYTICS SURVEY -->
     <section class="research-section" id="research" aria-labelledby="research-title">
       <div class="section-wrap research-wrap">
         <div class="research-top">
@@ -453,7 +429,7 @@
       </div>
     </section>
 
-
+    <!-- LOCATION AND HOURS -->
     <section class="contact section-wrap section-space" id="contact" aria-labelledby="contact-title">
       <div class="contact-copy">
         <div class="eyebrow"><span class="eyebrow-dash"></span> LOCATION AND HOURS</div>
